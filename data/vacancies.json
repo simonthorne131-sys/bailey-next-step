@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T11:50+01:00",
+ "generated": "2026-10-04T11:51+01:00",
  "items": [
   {
    "id": "reed:57273955",
@@ -8,7 +8,7 @@
    "title": "Assistant Industrial Door Engineer",
    "employer": "Get Staffed Online Recruitment Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£26,437 per year",
    "pay_hourly": null,
    "pay_annual": 26436.8,
@@ -61,7 +61,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -98,7 +98,7 @@
    ],
    "why": [
     "A practical starter job in an engineering or technical setting.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is about £13.56 an hour, a bit above the roughly £12.71 you get now."
    ],
    "gaps": []
@@ -110,7 +110,7 @@
    "title": "Junior Electrical Maintenance Engineer",
    "employer": "Rise Technical Recruitment Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£40,000 to £50,000 per year",
    "pay_hourly": null,
    "pay_annual": 40000.0,
@@ -169,7 +169,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -207,7 +207,7 @@
    "why": [
     "A practical starter job in an engineering or technical setting.",
     "Pay is about £20.51 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route."
+    "About 3 miles from home. Likely doable by bus or a lift; check the route."
    ],
    "gaps": [
     "The pay is high for a starter job, which usually means they want some experience. Read the requirements.",
@@ -221,7 +221,7 @@
    "title": "Workshop Technician",
    "employer": "Shorterm Group",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£15.00 per hour",
    "pay_hourly": 15.0,
    "pay_annual": null,
@@ -280,7 +280,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -317,7 +317,7 @@
    ],
    "why": [
     "Pay is £15.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -554,7 +554,7 @@
    "title": "Production Operative",
    "employer": "Newstaff Employment",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£28,000 per year",
    "pay_hourly": null,
    "pay_annual": 28000.0,
@@ -607,7 +607,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -644,11 +644,16 @@
    ],
    "why": [
     "Pay is about £14.36 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [],
    "more_roles": [
+    {
+     "title": "Machine Operative - Hitchin",
+     "url": "https://www.reed.co.uk/jobs/machine-operative-hitchin/57417616",
+     "score": 58
+    },
     {
      "title": "Machine Operative - Hitchin",
      "url": "https://www.reed.co.uk/jobs/machine-operative-hitchin/57417616",
@@ -683,7 +688,7 @@
    "title": "Warehouse Operatives",
    "employer": "Insight Employment ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.45 per hour",
    "pay_hourly": 13.45,
    "pay_annual": null,
@@ -736,7 +741,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -772,12 +777,22 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is £13.45 an hour, a bit above the roughly £12.71 you get now.",
     "Full-time, which is what you want."
    ],
    "gaps": [],
    "more_roles": [
+    {
+     "title": "Production Operatives",
+     "url": "https://www.reed.co.uk/jobs/production-operatives/56283781",
+     "score": 68
+    },
+    {
+     "title": "Waste Recycling Operatives & Picking Labourers",
+     "url": "https://www.reed.co.uk/jobs/waste-recycling-operatives-picking-labourers/56284230",
+     "score": 66
+    },
     {
      "title": "Production Operatives",
      "url": "https://www.reed.co.uk/jobs/production-operatives/56283781",
@@ -837,7 +852,7 @@
    "title": "Production Operative",
    "employer": "Synergy Plus Recruitment Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£16.87 to £25.31 per hour",
    "pay_hourly": 16.87,
    "pay_annual": null,
@@ -896,7 +911,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -933,7 +948,7 @@
    ],
    "why": [
     "Pay is £16.87 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -947,7 +962,7 @@
    "title": "Production Operative",
    "employer": "Brioche Pasquier",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£30,551 per year",
    "pay_hourly": null,
    "pay_annual": 30551.0,
@@ -1000,7 +1015,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -1037,7 +1052,7 @@
    ],
    "why": [
     "Pay is about £15.67 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -1051,7 +1066,7 @@
    "title": "Warehouse Operative",
    "employer": "Meriden Media",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£15.14 to £16.44 per hour",
    "pay_hourly": 15.14,
    "pay_annual": null,
@@ -1110,7 +1125,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -1147,7 +1162,7 @@
    ],
    "why": [
     "Pay is £15.14 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -1162,7 +1177,7 @@
    "title": "Warehouse Operatives",
    "employer": "Pertemps Royal Mail",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£15.14 to £16.44 per hour",
    "pay_hourly": 15.14,
    "pay_annual": null,
@@ -1221,7 +1236,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -1258,7 +1273,7 @@
    ],
    "why": [
     "Pay is £15.14 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -1730,6 +1745,36 @@
      "title": "Admin Assistant",
      "url": "https://insightemployment.co.uk/dir/job/admin-assistant/",
      "score": 56
+    },
+    {
+     "title": "Quality Assurance Technician",
+     "url": "https://insightemployment.co.uk/dir/job/quality-assurance-technician/",
+     "score": 66
+    },
+    {
+     "title": "Production Operatives",
+     "url": "https://insightemployment.co.uk/dir/job/production-operatives-3/",
+     "score": 64
+    },
+    {
+     "title": "Import & Export Administrator",
+     "url": "https://insightemployment.co.uk/dir/job/import-export-administrator/",
+     "score": 64
+    },
+    {
+     "title": "Warehouse Sortation Operatives",
+     "url": "https://insightemployment.co.uk/dir/job/warehouse-sortation-operatives/",
+     "score": 59
+    },
+    {
+     "title": "Production Operative",
+     "url": "https://insightemployment.co.uk/dir/job/production-operative-2/",
+     "score": 58
+    },
+    {
+     "title": "Admin Assistant",
+     "url": "https://insightemployment.co.uk/dir/job/admin-assistant/",
+     "score": 56
     }
    ]
   },
@@ -2137,6 +2182,41 @@
      "title": "The Royal Navy - Marine Engineering - Accelerated Apprenticeship",
      "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041740",
      "score": 70
+    },
+    {
+     "title": "The Royal Navy - Weapon Engineering - Maritime Mechanical & Electrical Mechanic Apprenticeship",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041639",
+     "score": 74
+    },
+    {
+     "title": "The Royal Navy-Weapon Engineering (Submariner)-Maritime Mechanical & Electrical Mechanic Apprentice",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041634",
+     "score": 74
+    },
+    {
+     "title": "The Royal Navy - Weapon Engineer Accelerated Apprentice (Submariner)",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041678",
+     "score": 71
+    },
+    {
+     "title": "The Royal Navy - Weapon Engineering - Accelerated Apprenticeship",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041744",
+     "score": 71
+    },
+    {
+     "title": "The Royal Navy - Royal Marines Commando - HM Forces Serviceperson (Public Services) Apprenticeship",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041658",
+     "score": 67
+    },
+    {
+     "title": "The Royal Navy - Accelerated Apprentice (Submariner) - Marine Engineer",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041681",
+     "score": 65
+    },
+    {
+     "title": "The Royal Navy - Marine Engineering - Accelerated Apprenticeship",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000041740",
+     "score": 65
     },
     {
      "title": "The Royal Navy - Weapon Engineering - Maritime Mechanical & Electrical Mechanic Apprenticeship",
@@ -2961,7 +3041,7 @@
    "title": "Warehouse Operative",
    "employer": "Newstaff Employment",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£26,000 to £28,000 per year",
    "pay_hourly": null,
    "pay_annual": 26000.0,
@@ -3014,7 +3094,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -3050,7 +3130,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is about £13.33 an hour, a bit above the roughly £12.71 you get now.",
     "Full-time, which is what you want."
    ],
@@ -3375,6 +3455,11 @@
     "About 15 miles from home. Probably over 30 minutes unless someone drives you."
    ],
    "more_roles": [
+    {
+     "title": "Production Operative",
+     "url": "https://www.reed.co.uk/jobs/production-operative/57296021",
+     "score": 62
+    },
     {
      "title": "Production Operative",
      "url": "https://www.reed.co.uk/jobs/production-operative/57296021",
@@ -4182,7 +4267,7 @@
    "title": "Administrative Officer",
    "employer": "Foreign & Commonwealth Office",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£29,500 per year",
    "pay_hourly": null,
    "pay_annual": 29500.0,
@@ -4241,7 +4326,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -4278,7 +4363,7 @@
    ],
    "why": [
     "Pay is about £15.13 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -4295,7 +4380,7 @@
    "title": "Mechanical Assembler - Experience required",
    "employer": "Quality Personnel Services Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£12.80 per hour",
    "pay_hourly": 12.8,
    "pay_annual": null,
@@ -4359,7 +4444,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -4395,7 +4480,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want.",
     "Weekday daytime hours."
    ],
@@ -4843,7 +4928,7 @@
    "title": "Apprentice Technician",
    "employer": "Trescal Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": null,
    "pay_hourly": null,
    "pay_annual": null,
@@ -4904,7 +4989,7 @@
      "weight": 25,
      "value": 0.9,
      "points": 22.5,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "evidence",
@@ -4948,7 +5033,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -5187,7 +5272,7 @@
    "title": "Production & Administration Operative",
    "employer": "Proman UK",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.45 per hour",
    "pay_hourly": 13.45,
    "pay_annual": null,
@@ -5246,7 +5331,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -5282,7 +5367,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is £13.45 an hour, a bit above the roughly £12.71 you get now.",
     "Full-time, which is what you want."
    ],
@@ -5298,7 +5383,7 @@
    "title": "Production Operative",
    "employer": "Insight Employment ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.15 to £14.15 per hour",
    "pay_hourly": 13.15,
    "pay_annual": null,
@@ -5351,7 +5436,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -5387,7 +5472,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is £13.15 an hour, a bit above the roughly £12.71 you get now.",
     "Full-time, which is what you want."
    ],
@@ -5402,7 +5487,7 @@
    "title": "Production Operatives",
    "employer": "Insight Employment ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.78 per hour",
    "pay_hourly": 13.78,
    "pay_annual": null,
@@ -5458,7 +5543,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -5494,7 +5579,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Pay is £13.78 an hour, a bit above the roughly £12.71 you get now.",
     "Full-time, which is what you want."
    ],
@@ -6701,7 +6786,7 @@
    "title": "Production Operatives",
    "employer": "Insight Employment (agency; employer not named)",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "📍 Milton Keynes 💷 £12.80 per hour (Days) | £16.00 per hour (Nights) ⏰ Continental Shifts – Rotating Days & Nights 📅 Immediate Starts Available 💰 Weekly Pay | Day Shift: £12.80 per hour | Night Shift: ",
    "pay_hourly": 12.8,
    "pay_annual": null,
@@ -6754,7 +6839,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -6790,7 +6875,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want.",
     "You've done production work before."
    ],
@@ -6807,7 +6892,7 @@
    "title": "Warehouse Operative - Multi Site (John Lewis Milton Keynes)",
    "employer": "Impellam",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.05 to £15.80 per hour",
    "pay_hourly": 13.05,
    "pay_annual": null,
@@ -6860,7 +6945,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -6896,7 +6981,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want.",
     "You've done warehouse work before."
    ],
@@ -7252,9 +7337,17 @@
     "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000053506"
    ],
    "other_locations": [
-    "Harlow Essex (CM20 2SL)"
+    "Harlow Essex (CM20 2SL)",
+    "Kent (TN14 5DF)",
+    "Norwich (NR4 6DG)",
+    "Surrey (CR5 2HR)"
    ],
    "more_roles": [
+    {
+     "title": "Vehicle Damage Panel Technician Apprentice - NOVA Automotive Group - Hemel Hempstead, Hertfordshire",
+     "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000050597",
+     "score": 62
+    },
     {
      "title": "Vehicle Damage Panel Technician Apprentice - NOVA Automotive Group - Hemel Hempstead, Hertfordshire",
      "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000050597",
@@ -7954,7 +8047,7 @@
    "title": "Warehouse Operatives",
    "employer": "Rapier",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£12.71 to £13.21 per hour",
    "pay_hourly": 12.71,
    "pay_annual": null,
@@ -8007,7 +8100,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -8043,7 +8136,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want.",
     "You've done warehouse work before."
    ],
@@ -9017,7 +9110,7 @@
    ]
   },
   {
-   "id": "reed:57287163",
+   "id": "reed:57295039",
    "source": "Reed",
    "lane": "job",
    "title": "Food Production Operative",
@@ -9029,9 +9122,9 @@
    "pay_annual": null,
    "hours_text": "Full-time",
    "contract": "Temporary",
-   "posted": "2026-08-28",
-   "listing_ends": "2026-10-09",
-   "url": "https://www.reed.co.uk/jobs/food-production-operative/57287163",
+   "posted": "2026-09-01",
+   "listing_ends": "2026-10-13",
+   "url": "https://www.reed.co.uk/jobs/food-production-operative/57295039",
    "apply_route": "Apply on Reed (free account) or the employer's site",
    "text": "Handling raw pork for ham production\nOperating machinery for slicing, curing, and packaging\nFollowing health and safety standards to maintain a hygienic environment\nLabelling and packing finished products for distribution\nMaintaining consistent product quality and presentation\nPrevious experience in food production is a plus, but not essential\nComfortable working in a chilled environment\nAbility to follow instructions and work in a fast-paced team\nAttention to detail and good work ethic\nCompetitive weekly pay\nFull training provided – no experience necessary\nOngoing work, Monday to Friday\nFriendly and supportive team environment\nOpportunity to work with a respected name in the food industry",
    "checkable": true,
@@ -9048,7 +9141,7 @@
    "last_checked": "2026-10-04",
    "is_new": false,
    "other_links": [
-    "https://www.reed.co.uk/jobs/food-production-operative/57295039",
+    "https://www.reed.co.uk/jobs/food-production-operative/57287163",
     "https://www.reed.co.uk/jobs/food-production-operative/57401237"
    ],
    "checks": [],
@@ -9357,7 +9450,7 @@
    "title": "Credit Control Admin Assistant",
    "employer": "Michael Page Finance",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£13.00 to £16.00 per hour",
    "pay_hourly": 13.0,
    "pay_annual": null,
@@ -9410,7 +9503,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -9446,7 +9539,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -9572,7 +9665,8 @@
    ],
    "other_locations": [
     "Bedford",
-    "Luton"
+    "Luton",
+    "Northampton"
    ]
   },
   {
@@ -9912,7 +10006,7 @@
    "url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9155-Z-EA-1026-64",
    "apply_route": "Apply on beta.jobs.nhs.uk",
    "checkable": false,
-   "detail_checked": true,
+   "detail_checked": false,
    "category": "Electrical",
    "out_of_scope": null,
    "live": "open",
@@ -10755,7 +10849,7 @@
    "title": "Warehouse Operatives",
    "employer": "Rapier Employment",
    "location": "Milton Keynes, Buckinghamshire, South East, England",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "Warehouse Operative & Admin – Milton Keynes Immediate Start | Mon–Fri | Days £12.71 per hour | Nights £13.21 per hour + Overtime Shift options: | £71 per hour",
    "pay_hourly": 12.71,
    "pay_annual": null,
@@ -10805,7 +10899,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -10841,7 +10935,7 @@
     }
    ],
    "why": [
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "You've done warehouse work before."
    ],
    "gaps": [
@@ -12943,7 +13037,7 @@
    "title": "Skilled Wireperson",
    "employer": "Routeco",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£33,000 to £35,500 per year",
    "pay_hourly": null,
    "pay_annual": 33000.0,
@@ -13017,7 +13111,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13054,7 +13148,7 @@
    ],
    "why": [
     "Pay is about £16.92 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13068,7 +13162,7 @@
    "title": "Electrical Engineer (Energy Efficiency)",
    "employer": "Rise Technical Recruitment Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£50,000 to £55,000 per year",
    "pay_hourly": null,
    "pay_annual": 50000.0,
@@ -13137,7 +13231,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13174,7 +13268,7 @@
    ],
    "why": [
     "Pay is about £25.64 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13190,7 +13284,7 @@
    "title": "Industrial Door Engineer",
    "employer": "Get Staff",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£16.00 to £22.00 per hour",
    "pay_hourly": 16.0,
    "pay_annual": null,
@@ -13264,7 +13358,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13301,7 +13395,7 @@
    ],
    "why": [
     "Pay is £16.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13318,7 +13412,7 @@
    "title": "Electrical Field Service Engineer",
    "employer": "360 Resourcing Solutions",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£35,000 to £45,000 per year",
    "pay_hourly": null,
    "pay_annual": 35000.0,
@@ -13382,7 +13476,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13419,7 +13513,7 @@
    ],
    "why": [
     "Pay is about £17.95 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13434,7 +13528,7 @@
    "title": "Carpenter Multi Trade",
    "employer": "Niyaa People",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£36,000 to £38,000 per year",
    "pay_hourly": null,
    "pay_annual": 36000.0,
@@ -13498,7 +13592,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13535,7 +13629,7 @@
    ],
    "why": [
     "Pay is about £18.46 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13551,7 +13645,7 @@
    "title": "Warehouse Operative",
    "employer": "thyssenkrupp Materials UK",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£29,000 per year",
    "pay_hourly": null,
    "pay_annual": 29000.0,
@@ -13620,7 +13714,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13657,7 +13751,7 @@
    ],
    "why": [
     "Pay is about £14.87 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13673,7 +13767,7 @@
    "title": "Approved Electrician - MK",
    "employer": "Hays Specialist Recruitment Limited",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£28.00 to £30.00 per hour",
    "pay_hourly": 28.0,
    "pay_annual": null,
@@ -13752,7 +13846,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13789,7 +13883,7 @@
    ],
    "why": [
     "Pay is £28.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13807,7 +13901,7 @@
    "title": "Electrician needed in Milton Keynes",
    "employer": "Shorterm Group",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£26.00 to £28.00 per hour",
    "pay_hourly": 26.0,
    "pay_annual": null,
@@ -13871,7 +13965,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -13908,7 +14002,7 @@
    ],
    "why": [
     "Pay is £26.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -13924,7 +14018,7 @@
    "title": "Maintenance Engineer",
    "employer": "Yolk Recruitment Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£50,000 per year",
    "pay_hourly": null,
    "pay_annual": 50000.0,
@@ -13988,7 +14082,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14025,7 +14119,7 @@
    ],
    "why": [
     "Pay is about £25.64 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14040,7 +14134,7 @@
    "title": "Wireperson",
    "employer": "Wild Recruitment",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£30,000 to £33,000 per year",
    "pay_hourly": null,
    "pay_annual": 30000.0,
@@ -14109,7 +14203,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14146,7 +14240,7 @@
    ],
    "why": [
     "Pay is about £15.38 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14161,7 +14255,7 @@
    "title": "National Installation Engineer",
    "employer": "Aspire Personnel Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£51,111 per year",
    "pay_hourly": null,
    "pay_annual": 51111.0,
@@ -14225,7 +14319,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14262,7 +14356,7 @@
    ],
    "why": [
     "Pay is about £26.21 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14277,7 +14371,7 @@
    "title": "Welder Fabricator",
    "employer": "Fusion People Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£25.00 per hour",
    "pay_hourly": 25.0,
    "pay_annual": null,
@@ -14336,7 +14430,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14373,7 +14467,7 @@
    ],
    "why": [
     "Pay is £25.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14388,7 +14482,7 @@
    "title": "Assemblers",
    "employer": "Response Recruitment Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£14.00 to £15.00 per hour",
    "pay_hourly": 14.0,
    "pay_annual": null,
@@ -14447,7 +14541,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14484,7 +14578,7 @@
    ],
    "why": [
     "Pay is £14.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14498,7 +14592,7 @@
    "title": "Warehouse Operative",
    "employer": "Frossell Recruitment",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£14.00 per hour",
    "pay_hourly": 14.0,
    "pay_annual": null,
@@ -14557,7 +14651,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14594,7 +14688,7 @@
    ],
    "why": [
     "Pay is £14.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14830,7 +14924,7 @@
    "title": "Maintenance Engineer",
    "employer": "Pioneer Selection Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£54,000 per year",
    "pay_hourly": null,
    "pay_annual": 54000.0,
@@ -14892,7 +14986,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -14929,7 +15023,7 @@
    ],
    "why": [
     "Pay is about £27.69 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -14944,7 +15038,7 @@
    "title": "Maintenance Engineer",
    "employer": "Stirling Warrington",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£60,000 to £65,000 per year",
    "pay_hourly": null,
    "pay_annual": 60000.0,
@@ -15008,7 +15102,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -15045,7 +15139,7 @@
    ],
    "why": [
     "Pay is about £30.77 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
@@ -15061,7 +15155,7 @@
    "title": "Multi-skilled Maintenance Engineer",
    "employer": "CV TECHNICAL LTD",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£50,000 to £55,000 per year",
    "pay_hourly": null,
    "pay_annual": 50000.0,
@@ -15071,14 +15165,14 @@
    "listing_ends": "2026-10-20",
    "url": "https://www.reed.co.uk/jobs/multi-skilled-maintenance-engineer/57323034",
    "apply_route": "Apply on Reed (free account) or the employer's site",
-   "text": "Multi-skilled Maintenance Engineer Milton Keynes 4 On, 3 Off, 3 On, 4 Off (Days & Nights) 55,000 + Overtime + Benefits We are looking for a motivat...",
+   "text": "Multi-skilled Maintenance Engineer\nMilton Keynes\n4 On, 3 Off, 3 On, 4 Off (Days & Nights)\n£55,000 + Overtime + Benefits\nWe are looking for a motivated Multi-Skilled Maintenance Engineer to join a market leading manufacturer in their respective field. Reporting directly to the engineering manager you will be a key member in ensuring the production facility is kept running. You will be involved in all aspects of planned and reactive maintenance within their operation. With progressive training and development this company is always looking to enhance its employees and their skill sets, whilst additionally being supported by a welcoming team of engineers. The position will appeal to a strong engineer looking for their next challenging role within in a secure and stable company.\nRole Description\nProviding both Reactive & PPM maintenance\nWorking on a variety of production machinery\nBeing involved in Project Work\nFault Finding both Electrical & Mechanical\nPLC Fault Finding\nAdhering to all health & safety on site\nSkills and Qualifications\nMaintenance Experience\nElectrical/Mechanical Qualifications\nFault Finding ability both Electrical and Mechanical\nHydraulics and Pneumatics\nIn return for your commitment my client offers a stable and secure career for a technically motivated engineer. If you feel this is of interest, please send your CV directly to Thomas Barkes at or call for a confidential discussion on .",
    "checkable": true,
    "is_training_course": false,
    "detail_checked": true,
    "category": "Skilled role",
    "out_of_scope": null,
    "live": "open",
-   "live_note": "Listed this week; full advert not read yet.",
+   "live_note": "Checked on Reed.",
    "first_seen": "2026-10-04",
    "last_checked": "2026-10-04",
    "is_new": false,
@@ -15117,7 +15211,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -15154,13 +15248,16 @@
    ],
    "why": [
     "Pay is about £25.64 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Full-time, which is what you want."
    ],
    "gaps": [
     "Looks like a job for someone with a few years in the trade, not a starter role.",
     "Involves night shifts. You'd prefer days."
-   ]
+   ],
+   "requirements": null,
+   "pattern_text": null,
+   "closes": null
   },
   {
    "id": "reed:57310210",
@@ -15169,7 +15266,7 @@
    "title": "Facilities Service Engineer",
    "employer": "GXO Logistics",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£32,000 per year",
    "pay_hourly": null,
    "pay_annual": 32000.0,
@@ -15228,7 +15325,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -15265,7 +15362,7 @@
    ],
    "why": [
     "Pay is about £16.41 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route."
+    "About 3 miles from home. Likely doable by bus or a lift; check the route."
    ],
    "gaps": [
     "Looks like a job for someone with a few years in the trade, not a starter role.",
@@ -15279,7 +15376,7 @@
    "title": "Warehouse Operative",
    "employer": "GXO Logistics",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£28,200 per year",
    "pay_hourly": null,
    "pay_annual": 28200.0,
@@ -15338,7 +15435,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -15375,7 +15472,7 @@
    ],
    "why": [
     "Pay is about £14.46 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Weekday daytime hours."
    ],
    "gaps": [
@@ -15390,7 +15487,9 @@
     "https://www.reed.co.uk/jobs/warehouse-operative/57395700"
    ],
    "other_locations": [
-    "Northampton"
+    "Luton",
+    "Northampton",
+    "Wellingborough"
    ]
   },
   {
@@ -15504,7 +15603,7 @@
    ]
   },
   {
-   "id": "reed:57370162",
+   "id": "reed:57304027",
    "source": "Reed",
    "lane": "job",
    "title": "Assistant Window Fitter (UPVC)",
@@ -15516,9 +15615,9 @@
    "pay_annual": 28800.0,
    "hours_text": "Full-time",
    "contract": "Permanent",
-   "posted": "2026-09-21",
-   "listing_ends": "2026-11-02",
-   "url": "https://www.reed.co.uk/jobs/assistant-window-fitter-upvc/57370162",
+   "posted": "2026-09-02",
+   "listing_ends": "2026-10-14",
+   "url": "https://www.reed.co.uk/jobs/assistant-window-fitter-upvc/57304027",
    "apply_route": "Apply on Reed (free account) or the employer's site",
    "text": "Assistant Window Fitter Are you the ideal Assistant Window Fitter or handy labourer looking for a trainee opportunity with fast-track career progression in a nationwide company fitting windows & doors with the best in the industry? Our client is currently looking for Assistant Window Fitters to join in the success of this nationwide window & door repair and replacement business. Their window fitters and joiners have been happily servicing Blue Chip insurance companies since 1986. Due to expansion our client is keen to recruit assistant window fitters, working from their flagship branch in Luton. The ideal UPVC Window Fitter daily responsibilities include: * Removing old windows and doors using hand and power tools. * Fit new windows and doors. * To take measurements for new fittings and make any bespoke changes. * To fix windows, doors, and other products. * To clear away any materials left after the job is finished. * To repair and replace products as the customer requests. * Take part in ongoing training and development. Skills and Experience as an UPVC Assistant Window Fitter\nThe ideal candidate is likely to have some experience of fitting windows, doors and fitting conservatories in UPVC or general building work and keen to progress.\nThe ideal fitter will be trustworthy and able to work on their own initiative when assisting with windows and doors on site.\nBe Health & Safety conscious.\nA Driving license is essential.\nUPVC Assistant Window Fitter - Benefits\nGood rates of pay depending upon experience + Overtime.\n28 days full holiday entitlement per year.\nPension Scheme.\nCompany Work wear.\nIndustry leading training and development.\nSalary A competitive salary whilst training up to £31,200 (£600 per week) and rapid career progression with salary reviews up to £36,000 (£700 per week) once fully trained as a competent window fitter. This is a FULL-TIME PAYE career with fast-track progression, NOT a temporary contract. Our client has secured long term contracts with major Insurance companies, this ensures they can GUARANTEE work throughout the year, providing job security and reliability.",
    "checkable": true,
@@ -15534,6 +15633,9 @@
    "first_seen": "2026-10-04",
    "last_checked": "2026-10-04",
    "is_new": false,
+   "other_links": [
+    "https://www.reed.co.uk/jobs/assistant-window-fitter-upvc/57370162"
+   ],
    "checks": [
     {
      "label": "Driving licence",
@@ -16301,7 +16403,7 @@
    "title": "Assistant Maintenance engineer",
    "employer": "Pioneer Selection Ltd",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£33,000 per year",
    "pay_hourly": null,
    "pay_annual": 33000.0,
@@ -17764,7 +17866,7 @@
    "title": "CounterbalanceForklift Driver",
    "employer": "Insight Employment (agency; employer not named)",
    "location": "Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "£14.00 – £15.00 per hour",
    "pay_hourly": 14.0,
    "pay_annual": null,
@@ -17825,7 +17927,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -17862,7 +17964,7 @@
    ],
    "why": [
     "Pay is £14.00 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route.",
     "Your customer service and till experience fit this."
    ],
    "gaps": [
@@ -18106,7 +18208,7 @@
    "title": "Reach Forklift Driver",
    "employer": "Insight Employment (agency; employer not named)",
    "location": "Tilbrook, Milton Keynes",
-   "distance_miles": 1.0,
+   "distance_miles": 3.0,
    "pay_text": "Location: Tilbrook, Milton Keynes (MK7) Pay: £15.08 per hour Shift: Rotating",
    "pay_hourly": 15.08,
    "pay_annual": null,
@@ -18162,7 +18264,7 @@
      "weight": 20,
      "value": 0.9,
      "points": 18.0,
-     "note": "About 1 mile from home. Likely doable by bus or a lift; check the route."
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
     },
     {
      "key": "hours",
@@ -18199,7 +18301,7 @@
    ],
    "why": [
     "Pay is £15.08 an hour, well above the roughly £12.71 you get now.",
-    "About 1 mile from home. Likely doable by bus or a lift; check the route."
+    "About 3 miles from home. Likely doable by bus or a lift; check the route."
    ],
    "gaps": [
     "This job is driving a forklift or reach truck, which needs a licence you don't have yet.",

@@ -1,33 +1,33 @@
 {
- "run_at": "2026-10-04T11:50+01:00",
+ "run_at": "2026-10-04T11:51+01:00",
  "today": "2026-10-04",
  "sources": [
   {
    "key": "faa",
-   "name": "faa",
+   "name": "GOV.UK Find an apprenticeship",
    "ok": true,
-   "listed": 49,
+   "listed": 68,
    "note": ""
   },
   {
-   "key": "insight",
-   "name": "insight",
+   "key": "reed",
+   "name": "Reed",
    "ok": true,
-   "listed": 14,
+   "listed": 235,
    "note": ""
   },
   {
    "key": "rapier",
-   "name": "rapier",
+   "name": "Rapier Employment",
    "ok": true,
    "listed": 1,
    "note": ""
   },
   {
-   "key": "reed",
-   "name": "reed",
+   "key": "insight",
+   "name": "Insight Employment",
    "ok": true,
-   "listed": 111,
+   "listed": 22,
    "note": ""
   }
  ],
@@ -47,5 +47,13 @@
   "sources_ok": 4,
   "sources_failed": []
  },
- "log": []
+ "log": [
+  "Construction and engineering near Milton Keynes: 4 page(s) read",
+  "Electrical anywhere in England: 3 page(s) read",
+  "Marine and seagoing: 1 page(s) read",
+  "Wind and renewables: 1 page(s) read",
+  "20 searches read",
+  "Rapier Employment: 1 listed",
+  "Insight Employment: 22 listed"
+ ]
 }
