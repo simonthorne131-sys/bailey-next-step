@@ -95,8 +95,8 @@ def test_unknowns_are_half_marks_and_widen_range():
 
 
 def test_better_pay_scores_higher_in_jobs_lane():
-    low = score(vac(pay_hourly=12.21))["score"]
-    high = score(vac(pay_hourly=14.5))["score"]
+    low = score(vac(pay_hourly=10.5))["score"]
+    high = score(vac(pay_hourly=13.0))["score"]
     assert high > low
 
 

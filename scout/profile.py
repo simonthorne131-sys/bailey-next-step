@@ -27,8 +27,9 @@ PROFILE = {
     "prefer_daytime": True,
     "prefer_routine": True,
     "prefer_quieter": True,
-    # Simon mentioned about £12.71/hour at McDonald's. NOT confirmed: shown as "about".
-    "current_hourly": 12.71,
+    # Exact McDonald's rate not known. Simon (4 Oct 2026): below the adult £12.71, as he is 19.
+    # £10.85 = 18-20 National Minimum Wage from April 2026. Shown as "roughly".
+    "current_hourly": 10.85,
     "current_hourly_confirmed": False,
 }
 
