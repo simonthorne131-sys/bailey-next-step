@@ -208,6 +208,9 @@ def fold_big_employers(items: list[dict]) -> list[dict]:
     shown: dict[tuple, list] = {}
     out = []
     for v in items:
+        v.pop("folded_into", None)
+        v.pop("more_roles", None)
+    for v in items:
         if v["live"] == "closed" or v["blocked"]:
             out.append(v)
             continue
@@ -248,6 +251,29 @@ def summarise(items, report, today_s):
     return out
 
 
+def rescore_saved() -> dict:
+    """Re-apply the current rules and scores to last search's adverts, without reading any site.
+    Keeps the last search's date, source report and 'new this week' flags, so the board still
+    describes that search; only the scores, checks and scope change."""
+    stored = load_json(DATA / "vacancies.json", {"items": []})["items"]
+    last_run = load_json(DATA / "run.json", {})
+    was_new = {v["id"]: v.get("is_new", False) for v in stored}
+    keys = sorted({source_key(v["id"]) for v in stored})
+    fetchers = [(k, k, (lambda log, k=k: [dict(v, detail_checked=True) for v in stored if source_key(v["id"]) == k]), (lambda v: v))
+                for k in keys]
+    out = run(dry_run=True, fetchers=fetchers)  # closing dates are checked against today
+    items = out["items"]
+    for v in items:
+        v["is_new"] = was_new.get(v["id"], False)
+    report = last_run.get("sources", out["run"]["sources"])
+    run_doc = {**last_run, "summary": summarise(items, report, out["run"]["today"]),
+               "rescored_at": datetime.now(UK).isoformat(timespec="minutes")}
+    write_json(DATA / "vacancies.json", {"generated": run_doc["rescored_at"], "items": items})
+    write_json(DATA / "run.json", run_doc)
+    print(json.dumps(run_doc["summary"]))
+    return run_doc
+
+
 def load_json(path: Path, default):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -265,10 +291,7 @@ if __name__ == "__main__":
     ap.add_argument("--rescore", action="store_true", help="re-apply rules and scores to saved data without fetching")
     args = ap.parse_args()
     if args.rescore:
-        stored = load_json(DATA / "vacancies.json", {"items": []})["items"]
-        keys = sorted({source_key(v["id"]) for v in stored})
-        fetchers = [(k, k, (lambda log, k=k: [dict(v, detail_checked=True) for v in stored if source_key(v["id"]) == k]), (lambda v: v)) for k in keys]
-        out = run(fetchers=fetchers)
+        rescore_saved()
         sys.exit(0)
     out = run(dry_run=args.dry_run)
     failed = out["run"]["summary"]["sources_failed"]

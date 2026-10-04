@@ -5,7 +5,13 @@ on:
     # Saturday 09:00 UK time. Two entries cover GMT and BST; the gate below runs it once.
     - cron: "0 8 * * 6"
     - cron: "0 9 * * 6"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Full search (reads every job site, about 12 min) or re-score only (applies changed rules to last search, about 1 min)"
+        type: choice
+        options: [full search, re-score only]
+        default: full search
 
 permissions:
   contents: write
@@ -44,8 +50,12 @@ jobs:
         run: python -m pytest -q
 
       - name: Search, check and score
-        if: steps.gate.outputs.skip != 'true'
+        if: steps.gate.outputs.skip != 'true' && inputs.mode != 're-score only'
         run: python -m scout.run
+
+      - name: Re-score last search only
+        if: steps.gate.outputs.skip != 'true' && inputs.mode == 're-score only'
+        run: python -m scout.run --rescore
 
       - name: Publish the new data
         if: steps.gate.outputs.skip != 'true'
@@ -54,5 +64,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "Weekly update $(TZ=Europe/London date +%F)"
+          git commit -m "${{ inputs.mode == 're-score only' && 'Re-score' || 'Weekly update' }} $(TZ=Europe/London date +%F)"
+          git pull --rebase -X theirs || { git rebase --abort; exit 1; }
           git push

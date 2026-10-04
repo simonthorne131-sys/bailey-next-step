@@ -105,3 +105,15 @@ def test_same_role_at_several_branches_is_one_card_nearest_first(data_dir):
 def test_repeated_pay_word_is_tidied(data_dir):
     out = runmod.run(today=date(2026, 10, 10), fetchers=[source("fake", [item("fake:1", pay_text="Competitive Competitive wage offered", pay_hourly=None)])])
     assert out["items"][0]["pay_text"] == "Competitive wage offered"
+
+
+def test_rescore_keeps_search_date_sources_and_new_flags(data_dir):
+    runmod.run(today=date(2026, 10, 3), fetchers=[source("fake", [item("fake:1")])])
+    runmod.run(today=date(2026, 10, 10), fetchers=[source("fake", [item("fake:1"), item("fake:2", title="Production Operative")])])
+    before = json.loads((data_dir / "run.json").read_text())
+    runmod.rescore_saved()
+    after = json.loads((data_dir / "run.json").read_text())
+    items = {v["id"]: v for v in json.loads((data_dir / "vacancies.json").read_text())["items"]}
+    assert after["today"] == before["today"] and after["sources"] == before["sources"] and "rescored_at" in after
+    assert items["fake:2"]["is_new"] is True and items["fake:1"]["is_new"] is False
+    assert items["fake:1"]["first_seen"] == "2026-10-03"
