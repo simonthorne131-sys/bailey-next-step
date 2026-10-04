@@ -152,3 +152,9 @@ def test_far_apprenticeship_is_capped_below_strong_but_sea_roles_are_not():
     assert score(far)["score"] <= 74
     near = dict(far, distance_miles=3.0)
     assert score(near)["score"] >= 75
+
+
+def test_electrically_qualified_or_time_served_is_a_block():
+    assert results("Junior Electrical Maintenance Engineer", "You will be electrically qualified with maintenance experience")["Electrical qualification"] == "not_met"
+    assert results("Electrician's Mate", "Time-served electrician required")["Electrical qualification"] == "not_met"
+    assert "Electrical qualification" not in results("Trainee Electrician", "We will support you to become fully qualified")

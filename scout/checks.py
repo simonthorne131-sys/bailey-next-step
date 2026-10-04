@@ -120,7 +120,11 @@ def requirement_checks(title: str, text: str, profile: dict, lane: str, starter_
                 and not re.search(r"alongside|under (?:the )?supervision|become (?:a|an) (?:qualified|competent)|support(?:ing)?|assist|work with", line, re.I)
                 and not optional):
             c.add("Electrical experience", "not_met", "Wants someone with paid electrical work experience. Your experience so far is from college.")
-        if re.search(r"level\s*3.{0,45}electrical|electrical.{0,45}level\s*3", line, re.I) and "nvq" not in low:
+        if (re.search(r"electrically qualified|qualified electrical(?:ly)?\b|fully qualified|time[ -]served|approved electrician|JIB (?:approved|graded)", line, re.I)
+                and not optional and not re.search(r"become|working towards|train(?:ed|ing)? to|support(?:ing)? (?:a|our)", line, re.I)):
+            c.add("Electrical qualification", "not_met" if not profile["professional_electrician"] else "met",
+                  "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.")
+        elif re.search(r"level\s*3.{0,45}electrical|electrical.{0,45}level\s*3", line, re.I) and "nvq" not in low:
             c.add("Level 3 Electrical", "met", "Mentions Level 3 electrical. You've achieved Level 3 Electrical Installation at college.")
         elif re.search(r"level\s*2.{0,45}electrical|electrical.{0,45}level\s*2", line, re.I) and "nvq" not in low:
             c.add("Electrical qualification", "met", "Asks for Level 2 electrical. You've gone further and achieved Level 3.")
