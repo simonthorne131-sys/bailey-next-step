@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T12:05+01:00",
+ "generated": "2026-10-04T12:15+01:00",
  "items": [
   {
    "id": "reed:57273955",
@@ -102,117 +102,6 @@
     "About 3 miles from home. Likely doable by bus or a lift; check the route."
    ],
    "gaps": []
-  },
-  {
-   "id": "reed:57341516",
-   "source": "Reed",
-   "lane": "job",
-   "title": "Junior Electrical Maintenance Engineer",
-   "employer": "Rise Technical Recruitment Limited",
-   "location": "Milton Keynes",
-   "distance_miles": 3.0,
-   "pay_text": "£40,000 to £50,000 per year",
-   "pay_hourly": null,
-   "pay_annual": 40000.0,
-   "hours_text": "Full-time",
-   "contract": "Permanent",
-   "posted": "2026-09-21",
-   "listing_ends": "2026-10-26",
-   "url": "https://www.reed.co.uk/jobs/junior-electrical-maintenance-engineer/57341516",
-   "apply_route": "Apply on Reed (free account) or the employer's site",
-   "text": "Junior Electrical Maintenance Engineer £40,000 - £50,000 + Multi-skilled Training + Bonus + Overtime + Benefits Milton Keynes (Commutable from: Luton, Bedford, Northampton, Hitchin, Banbury, Brackley, Buckingham, Towcester, Bletchley)\nDo you have any Electrical qualifications or experience ooking to work in a purpose built and modern facility with continued training and highly competitive benefits?\nOn offer is a great opportunity to technically progress your career whilst working within a friendly, stable and secure team of Engineers.\nThis multi-million pound Manufacturer trade as experts within the Packaging sector. As a result they have an additional position available in the Maintenance team.\nWithin this position you will be expected to fault find, repair and maintain a range of bespoke electro-mechanical production equipment at their large and modern facility. The shift pattern is a Panama with days and nights rotation.\nThis role would suit an Electrical Engineer / Electrical looking to work on specialist controls systems, huge on target earnings and be in stable employment.\nThe Role.\nFault-find, repair and maintain a range of Electro-Mechanical equipment.\nPanama Shift pattern (2 on 2 off, 3 on, 3 off)\nDays and Nights rotation.\nPPM and breakdowns in a Production facility.\nThe Person.\nMaintenance experience.\nElectrically qualified\nManufacturing / FMCG environment preferred.\nJob Reference Number: 279454 To apply for this role or to be considered for further roles, please click \"Apply Now\" or contact [Jamie Davies] at Rise Technical Recruitment.\nRise Technical Recruitment Ltd acts an employment agency for permanent roles and an employment business for temporary roles.\nThe salary advertised is the bracket available for this position. The actual salary paid will be dependent on your level of experience, qualifications and skill set and will be decided by our client, the employer. Rise are not responsible or liable for any hiring decisions made by the end client.\nWe are an equal opportunities company and welcome applications from all suitable candidates.",
-   "checkable": true,
-   "is_training_course": false,
-   "detail_checked": true,
-   "category": "Practical starter role",
-   "out_of_scope": null,
-   "requirements": null,
-   "pattern_text": "Within this position you will be expected to fault find, repair and maintain a range of bespoke electro-mechanical production equipment at their large and modern facility. The shift pattern is a Panama with days and nights rotation.\nPanama Shift pattern (2 on 2 off, 3 on, 3 off)\nDays and Nights rotation.",
-   "closes": null,
-   "live": "open",
-   "live_note": "Checked on Reed.",
-   "first_seen": "2026-10-04",
-   "last_checked": "2026-10-04",
-   "is_new": false,
-   "checks": [
-    {
-     "label": "Experience level",
-     "result": "check",
-     "note": "The pay is high for a starter job, which usually means they want some experience. Read the requirements."
-    }
-   ],
-   "blocked": false,
-   "score": 81,
-   "score_low": 78,
-   "score_high": 84,
-   "band": "Strong match",
-   "factors": [
-    {
-     "key": "career",
-     "label": "Career fit",
-     "weight": 25,
-     "value": 0.8,
-     "points": 20.0,
-     "note": "A practical starter job in an engineering or technical setting."
-    },
-    {
-     "key": "pay",
-     "label": "Pay",
-     "weight": 20,
-     "value": 1.0,
-     "points": 20.0,
-     "note": "Pay is about £20.51 an hour, well above the roughly £10.85 you get now."
-    },
-    {
-     "key": "travel",
-     "label": "Travel",
-     "weight": 20,
-     "value": 0.9,
-     "points": 18.0,
-     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
-    },
-    {
-     "key": "hours",
-     "label": "Hours",
-     "weight": 10,
-     "value": 1.0,
-     "points": 10.0,
-     "note": "Full-time, which is what you want."
-    },
-    {
-     "key": "shifts",
-     "label": "Shifts",
-     "weight": 10,
-     "value": 0.2,
-     "points": 2.0,
-     "note": "Involves night shifts. You'd prefer days."
-    },
-    {
-     "key": "evidence",
-     "label": "Your experience",
-     "weight": 10,
-     "value": 0.85,
-     "points": 8.5,
-     "note": "Your Level 3 Electrical Installation and college practical work fit this."
-    },
-    {
-     "key": "workplace",
-     "label": "Workplace",
-     "weight": 5,
-     "value": null,
-     "points": null,
-     "note": null
-    }
-   ],
-   "why": [
-    "A practical starter job in an engineering or technical setting.",
-    "Pay is about £20.51 an hour, well above the roughly £10.85 you get now.",
-    "About 3 miles from home. Likely doable by bus or a lift; check the route."
-   ],
-   "gaps": [
-    "The pay is high for a starter job, which usually means they want some experience. Read the requirements.",
-    "Involves night shifts. You'd prefer days."
-   ]
   },
   {
    "id": "reed:57288289",
@@ -8768,110 +8657,6 @@
    ]
   },
   {
-   "id": "faa:VAC2000047369",
-   "source": "GOV.UK Find an apprenticeship",
-   "lane": "apprenticeship",
-   "title": "BMW/MINI Motor Vehicle Technician Apprenticeship - Sytner Maidenhead",
-   "employer": "SYTNER GROUP LIMITED",
-   "location": "Maidenhead (SL6 0BW)",
-   "distance_miles": 35.8,
-   "pay_text": "£16,640 for your first year, then could increase depending on your age National Minimum Wage rate for apprentices",
-   "pay_hourly": null,
-   "pay_annual": 16640.0,
-   "training": "Motor vehicle service and maintenance technician - light vehicle (level 3)",
-   "level": 3,
-   "start_date": "2026-11-01",
-   "closes": "2026-10-30",
-   "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000047369",
-   "apply_route": "Apply through GOV.UK (you'll need a free account)",
-   "checkable": true,
-   "detail_checked": true,
-   "category": "Vehicle and manufacturing",
-   "out_of_scope": null,
-   "hours_text": "Monday - Friday, 40-hours per week, working hours TBC. 40 hours a week",
-   "pattern_text": "Monday - Friday, 40-hours per week, working hours TBC. 40 hours a week",
-   "duration": "3 years",
-   "requirements": "Desirable qualifications : \n GCSE in: \n English (grade 4-C) \n Maths (grade 4-C) \n \n \n Share if you have other relevant qualifications and industry experience. The apprenticeship can be adjusted to reflect what you already know.\n \n \n Skills : \n Communication skills \n Attention to detail \n Organisation skills \n Problem solving skills \n Analytical skills \n Logical \n Team working",
-   "text": "Desirable qualifications : \n GCSE in: \n English (grade 4-C) \n Maths (grade 4-C) \n \n \n Share if you have other relevant qualifications and industry experience. The apprenticeship can be adjusted to reflect what you already know.\n \n \n Skills : \n Communication skills \n Attention to detail \n Organisation skills \n Problem solving skills \n Analytical skills \n Logical \n Team working\nWork Most of your apprenticeship is spent working. You’ll learn on the job by getting hands-on experience. What you'll do at work Job description: You will be working in a busy BMW/MINI workshop environment, where you will be responsible for maintaining and repairing motor vehicles to the high standards of the BMW/MINI brand. All BMW Motor Vehicle Technician Apprentices attend the BMW Group Academy UK in Berkshire for their off-the-job training. This ensures consistent training throughout the UK and allows our apprentices to train on up-to-the-minute products and technology. The training takes place over a 3-year period and takes the form of classroom and workshop sessions. The course is unique to BMW with a special emphasis on electronics and cutting-edge technology; your training will include the opportunity to work on the latest: Cars: Engines and BMW diagnostic equipment - Ultimately leading to the ability to undertake: Maintenance Service Repair activities on vehicles to the highest standards once fully qualified During the time spent at your retailer, a mentor will be allocated to oversee the work-based learning programme. A BMW representative will also visit on a 12-weekly basis to set performance targets and ensure any development needs are being met. Where you'll work Bath Road Taplow Maidenhead SL6 0BW\nTraining Apprenticeships include time away from working for specialist training. You’ll study to gain professional knowledge and skills. Training provider INSPIRO LEARNING LIMITED Training course Motor vehicle service and maintenance technician - light vehicle (level 3) Understanding apprenticeship levels (opens in new tab) What you'll learn Course contents Contribute to the maintenance of a safe and efficient workshop. Segregate waste for disposal or recycling. Comply with industry environmental legislation. Demonstrate due regard for own safety and that of others in the workshop and minimise risk of injury and vehicle damage. Carry out fundamental tasks associated with removal and replacement procedures on a vehicle. Obtain diagnostic and repair information. Interpret diagnostic information and use electrical wiring diagrams to determine system serviceability. Use a range of diagnostic equipment. Follow recognised diagnostic procedures, logical diagnostic sequence and apply advanced ",
-   "live": "open",
-   "live_note": "Checked on GOV.UK.",
-   "first_seen": "2026-10-04",
-   "last_checked": "2026-10-04",
-   "is_new": false,
-   "checks": [],
-   "blocked": false,
-   "score": 64,
-   "score_low": 64,
-   "score_high": 64,
-   "band": "Worth a look",
-   "factors": [
-    {
-     "key": "career",
-     "label": "Career fit",
-     "weight": 30,
-     "value": 0.6,
-     "points": 18.0,
-     "note": "A practical technical apprenticeship, but further from electrical work."
-    },
-    {
-     "key": "travel",
-     "label": "Travel",
-     "weight": 25,
-     "value": 0.3,
-     "points": 7.5,
-     "note": "About 35.8 miles away. Too far to travel daily without driving; it would probably mean moving, which you said you'd consider for the right apprenticeship."
-    },
-    {
-     "key": "evidence",
-     "label": "Your experience",
-     "weight": 15,
-     "value": 0.7,
-     "points": 10.5,
-     "note": "Your Level 3 college qualification and GCSEs meet typical entry requirements."
-    },
-    {
-     "key": "hours",
-     "label": "Hours",
-     "weight": 10,
-     "value": 1.0,
-     "points": 10.0,
-     "note": "40 hours a week: full-time, which is what you want."
-    },
-    {
-     "key": "shifts",
-     "label": "Shifts",
-     "weight": 10,
-     "value": 1.0,
-     "points": 10.0,
-     "note": "Weekday daytime hours."
-    },
-    {
-     "key": "pay",
-     "label": "Pay",
-     "weight": 5,
-     "value": 0.7,
-     "points": 3.5,
-     "note": "Pay is about £8.00 an hour, typical for an apprenticeship."
-    },
-    {
-     "key": "workplace",
-     "label": "Workplace",
-     "weight": 5,
-     "value": 0.85,
-     "points": 4.2,
-     "note": "The advert mentions training or support when you start."
-    }
-   ],
-   "why": [
-    "40 hours a week: full-time, which is what you want.",
-    "Weekday daytime hours.",
-    "The advert mentions training or support when you start."
-   ],
-   "gaps": [
-    "About 35.8 miles away. Too far to travel daily without driving; it would probably mean moving, which you said you'd consider for the right apprenticeship."
-   ]
-  },
-  {
    "id": "faa:VAC2000013889",
    "source": "GOV.UK Find an apprenticeship",
    "lane": "apprenticeship",
@@ -12731,6 +12516,11 @@
      "note": "This looks like a job for someone already qualified in the trade, not a starter role."
     },
     {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
      "label": "Electrical NVQ",
      "result": "not_met",
      "note": "Asks for an electrical NVQ. Your Level 3 is a college qualification, which isn't the same thing."
@@ -12811,6 +12601,7 @@
    ],
    "gaps": [
     "This looks like a job for someone already qualified in the trade, not a starter role.",
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Asks for an electrical NVQ. Your Level 3 is a college qualification, which isn't the same thing.",
     "Mentions trade certificates (18th Edition, AM2 or JIB) that qualified electricians hold."
    ]
@@ -13341,6 +13132,11 @@
      "note": "Wants someone with paid electrical work experience. Your experience so far is from college."
     },
     {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
      "label": "Trade certificates",
      "result": "not_met",
      "note": "Mentions trade certificates (18th Edition, AM2 or JIB) that qualified electricians hold."
@@ -13427,9 +13223,9 @@
    "gaps": [
     "This looks like a job for someone already qualified in the trade, not a starter role.",
     "Wants someone with paid electrical work experience. Your experience so far is from college.",
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Mentions trade certificates (18th Edition, AM2 or JIB) that qualified electricians hold.",
-    "Needs a full driving licence now. You have a provisional one.",
-    "Shift pattern not stated."
+    "Needs a full driving licence now. You have a provisional one."
    ]
   },
   {
@@ -13784,6 +13580,123 @@
    "gaps": [
     "This looks like a job for someone already qualified in the trade, not a starter role.",
     "Shift pattern not stated."
+   ]
+  },
+  {
+   "id": "reed:57341516",
+   "source": "Reed",
+   "lane": "job",
+   "title": "Junior Electrical Maintenance Engineer",
+   "employer": "Rise Technical Recruitment Limited",
+   "location": "Milton Keynes",
+   "distance_miles": 3.0,
+   "pay_text": "£40,000 to £50,000 per year",
+   "pay_hourly": null,
+   "pay_annual": 40000.0,
+   "hours_text": "Full-time",
+   "contract": "Permanent",
+   "posted": "2026-09-21",
+   "listing_ends": "2026-10-26",
+   "url": "https://www.reed.co.uk/jobs/junior-electrical-maintenance-engineer/57341516",
+   "apply_route": "Apply on Reed (free account) or the employer's site",
+   "text": "Junior Electrical Maintenance Engineer £40,000 - £50,000 + Multi-skilled Training + Bonus + Overtime + Benefits Milton Keynes (Commutable from: Luton, Bedford, Northampton, Hitchin, Banbury, Brackley, Buckingham, Towcester, Bletchley)\nDo you have any Electrical qualifications or experience ooking to work in a purpose built and modern facility with continued training and highly competitive benefits?\nOn offer is a great opportunity to technically progress your career whilst working within a friendly, stable and secure team of Engineers.\nThis multi-million pound Manufacturer trade as experts within the Packaging sector. As a result they have an additional position available in the Maintenance team.\nWithin this position you will be expected to fault find, repair and maintain a range of bespoke electro-mechanical production equipment at their large and modern facility. The shift pattern is a Panama with days and nights rotation.\nThis role would suit an Electrical Engineer / Electrical looking to work on specialist controls systems, huge on target earnings and be in stable employment.\nThe Role.\nFault-find, repair and maintain a range of Electro-Mechanical equipment.\nPanama Shift pattern (2 on 2 off, 3 on, 3 off)\nDays and Nights rotation.\nPPM and breakdowns in a Production facility.\nThe Person.\nMaintenance experience.\nElectrically qualified\nManufacturing / FMCG environment preferred.\nJob Reference Number: 279454 To apply for this role or to be considered for further roles, please click \"Apply Now\" or contact [Jamie Davies] at Rise Technical Recruitment.\nRise Technical Recruitment Ltd acts an employment agency for permanent roles and an employment business for temporary roles.\nThe salary advertised is the bracket available for this position. The actual salary paid will be dependent on your level of experience, qualifications and skill set and will be decided by our client, the employer. Rise are not responsible or liable for any hiring decisions made by the end client.\nWe are an equal opportunities company and welcome applications from all suitable candidates.",
+   "checkable": true,
+   "is_training_course": false,
+   "detail_checked": true,
+   "category": "Practical starter role",
+   "out_of_scope": null,
+   "requirements": null,
+   "pattern_text": "Within this position you will be expected to fault find, repair and maintain a range of bespoke electro-mechanical production equipment at their large and modern facility. The shift pattern is a Panama with days and nights rotation.\nPanama Shift pattern (2 on 2 off, 3 on, 3 off)\nDays and Nights rotation.",
+   "closes": null,
+   "live": "open",
+   "live_note": "Checked on Reed.",
+   "first_seen": "2026-10-04",
+   "last_checked": "2026-10-04",
+   "is_new": false,
+   "checks": [
+    {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
+     "label": "Experience level",
+     "result": "check",
+     "note": "The pay is high for a starter job, which usually means they want some experience. Read the requirements."
+    }
+   ],
+   "blocked": true,
+   "score": 81,
+   "score_low": 78,
+   "score_high": 84,
+   "band": "Strong match",
+   "factors": [
+    {
+     "key": "career",
+     "label": "Career fit",
+     "weight": 25,
+     "value": 0.8,
+     "points": 20.0,
+     "note": "A practical starter job in an engineering or technical setting."
+    },
+    {
+     "key": "pay",
+     "label": "Pay",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0,
+     "note": "Pay is about £20.51 an hour, well above the roughly £10.85 you get now."
+    },
+    {
+     "key": "travel",
+     "label": "Travel",
+     "weight": 20,
+     "value": 0.9,
+     "points": 18.0,
+     "note": "About 3 miles from home. Likely doable by bus or a lift; check the route."
+    },
+    {
+     "key": "hours",
+     "label": "Hours",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0,
+     "note": "Full-time, which is what you want."
+    },
+    {
+     "key": "shifts",
+     "label": "Shifts",
+     "weight": 10,
+     "value": 0.2,
+     "points": 2.0,
+     "note": "Involves night shifts. You'd prefer days."
+    },
+    {
+     "key": "evidence",
+     "label": "Your experience",
+     "weight": 10,
+     "value": 0.85,
+     "points": 8.5,
+     "note": "Your Level 3 Electrical Installation and college practical work fit this."
+    },
+    {
+     "key": "workplace",
+     "label": "Workplace",
+     "weight": 5,
+     "value": null,
+     "points": null,
+     "note": null
+    }
+   ],
+   "why": [
+    "A practical starter job in an engineering or technical setting.",
+    "Pay is about £20.51 an hour, well above the roughly £10.85 you get now.",
+    "About 3 miles from home. Likely doable by bus or a lift; check the route."
+   ],
+   "gaps": [
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
+    "The pay is high for a starter job, which usually means they want some experience. Read the requirements.",
+    "Involves night shifts. You'd prefer days."
    ]
   },
   {
@@ -15959,6 +15872,11 @@
      "note": "Looks like a job for someone with a few years in the trade, not a starter role."
     },
     {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
      "label": "Experience",
      "result": "check",
      "note": "Asks for some experience: CNC programming experience required."
@@ -16034,6 +15952,7 @@
    ],
    "gaps": [
     "Looks like a job for someone with a few years in the trade, not a starter role.",
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Asks for some experience: CNC programming experience required.",
     "About 15 miles from home. Probably over 30 minutes unless someone drives you."
    ]
@@ -16187,6 +16106,11 @@
    "is_new": false,
    "checks": [
     {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
      "label": "Driving licence",
      "result": "not_met",
      "note": "Needs a full driving licence now. You have a provisional one."
@@ -16266,6 +16190,7 @@
     "Full-time, which is what you want."
    ],
    "gaps": [
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Needs a full driving licence now. You have a provisional one.",
     "The pay is high for a starter job, which usually means they want some experience. Read the requirements.",
     "Involves night shifts. You'd prefer days."
@@ -16307,6 +16232,11 @@
      "label": "Driving licence",
      "result": "not_met",
      "note": "Needs a full driving licence now. You have a provisional one."
+    },
+    {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
     },
     {
      "label": "CSCS card",
@@ -16394,10 +16324,10 @@
    ],
    "gaps": [
     "Needs a full driving licence now. You have a provisional one.",
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Needs a CSCS card before you start. You don't have one yet.",
     "Asks for your own transport. Lifts or public transport might still work, so check the location and shift times.",
-    "The pay is high for a starter job, which usually means they want some experience. Read the requirements.",
-    "Involves night shifts. You'd prefer days."
+    "The pay is high for a starter job, which usually means they want some experience. Read the requirements."
    ]
   },
   {
@@ -17397,6 +17327,11 @@
      "note": "Wants someone with paid electrical work experience. Your experience so far is from college."
     },
     {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    },
+    {
      "label": "Electrical NVQ",
      "result": "not_met",
      "note": "Asks for an electrical NVQ. Your Level 3 is a college qualification, which isn't the same thing."
@@ -17483,9 +17418,9 @@
    "gaps": [
     "This looks like a job for someone already qualified in the trade, not a starter role.",
     "Wants someone with paid electrical work experience. Your experience so far is from college.",
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
     "Asks for an electrical NVQ. Your Level 3 is a college qualification, which isn't the same thing.",
-    "Mentions trade certificates (18th Edition, AM2 or JIB) that qualified electricians hold.",
-    "Needs a full driving licence now. You have a provisional one."
+    "Mentions trade certificates (18th Edition, AM2 or JIB) that qualified electricians hold."
    ]
   },
   {
@@ -18645,6 +18580,117 @@
     "A office / admin job. A stopgap away from food service.",
     "About 16 miles from home. Probably over 30 minutes unless someone drives you.",
     "Hard to tell how well your experience fits."
+   ]
+  },
+  {
+   "id": "faa:VAC2000047369",
+   "source": "GOV.UK Find an apprenticeship",
+   "lane": "apprenticeship",
+   "title": "BMW/MINI Motor Vehicle Technician Apprenticeship - Sytner Maidenhead",
+   "employer": "SYTNER GROUP LIMITED",
+   "location": "Maidenhead (SL6 0BW)",
+   "distance_miles": 35.8,
+   "pay_text": "£16,640 for your first year, then could increase depending on your age National Minimum Wage rate for apprentices",
+   "pay_hourly": null,
+   "pay_annual": 16640.0,
+   "training": "Motor vehicle service and maintenance technician - light vehicle (level 3)",
+   "level": 3,
+   "start_date": "2026-11-01",
+   "closes": "2026-10-30",
+   "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000047369",
+   "apply_route": "Apply through GOV.UK (you'll need a free account)",
+   "checkable": true,
+   "detail_checked": true,
+   "category": "Vehicle and manufacturing",
+   "out_of_scope": null,
+   "hours_text": "Monday - Friday, 40-hours per week, working hours TBC. 40 hours a week",
+   "pattern_text": "Monday - Friday, 40-hours per week, working hours TBC. 40 hours a week",
+   "duration": "3 years",
+   "requirements": "Desirable qualifications : \n GCSE in: \n English (grade 4-C) \n Maths (grade 4-C) \n \n \n Share if you have other relevant qualifications and industry experience. The apprenticeship can be adjusted to reflect what you already know.\n \n \n Skills : \n Communication skills \n Attention to detail \n Organisation skills \n Problem solving skills \n Analytical skills \n Logical \n Team working",
+   "text": "Desirable qualifications : \n GCSE in: \n English (grade 4-C) \n Maths (grade 4-C) \n \n \n Share if you have other relevant qualifications and industry experience. The apprenticeship can be adjusted to reflect what you already know.\n \n \n Skills : \n Communication skills \n Attention to detail \n Organisation skills \n Problem solving skills \n Analytical skills \n Logical \n Team working\nWork Most of your apprenticeship is spent working. You’ll learn on the job by getting hands-on experience. What you'll do at work Job description: You will be working in a busy BMW/MINI workshop environment, where you will be responsible for maintaining and repairing motor vehicles to the high standards of the BMW/MINI brand. All BMW Motor Vehicle Technician Apprentices attend the BMW Group Academy UK in Berkshire for their off-the-job training. This ensures consistent training throughout the UK and allows our apprentices to train on up-to-the-minute products and technology. The training takes place over a 3-year period and takes the form of classroom and workshop sessions. The course is unique to BMW with a special emphasis on electronics and cutting-edge technology; your training will include the opportunity to work on the latest: Cars: Engines and BMW diagnostic equipment - Ultimately leading to the ability to undertake: Maintenance Service Repair activities on vehicles to the highest standards once fully qualified During the time spent at your retailer, a mentor will be allocated to oversee the work-based learning programme. A BMW representative will also visit on a 12-weekly basis to set performance targets and ensure any development needs are being met. Where you'll work Bath Road Taplow Maidenhead SL6 0BW\nTraining Apprenticeships include time away from working for specialist training. You’ll study to gain professional knowledge and skills. Training provider INSPIRO LEARNING LIMITED Training course Motor vehicle service and maintenance technician - light vehicle (level 3) Understanding apprenticeship levels (opens in new tab) What you'll learn Course contents Contribute to the maintenance of a safe and efficient workshop. Segregate waste for disposal or recycling. Comply with industry environmental legislation. Demonstrate due regard for own safety and that of others in the workshop and minimise risk of injury and vehicle damage. Carry out fundamental tasks associated with removal and replacement procedures on a vehicle. Obtain diagnostic and repair information. Interpret diagnostic information and use electrical wiring diagrams to determine system serviceability. Use a range of diagnostic equipment. Follow recognised diagnostic procedures, logical diagnostic sequence and apply advanced ",
+   "live": "open",
+   "live_note": "Checked on GOV.UK.",
+   "first_seen": "2026-10-04",
+   "last_checked": "2026-10-04",
+   "is_new": false,
+   "checks": [
+    {
+     "label": "Electrical qualification",
+     "result": "not_met",
+     "note": "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet."
+    }
+   ],
+   "blocked": true,
+   "score": 64,
+   "score_low": 64,
+   "score_high": 64,
+   "band": "Worth a look",
+   "factors": [
+    {
+     "key": "career",
+     "label": "Career fit",
+     "weight": 30,
+     "value": 0.6,
+     "points": 18.0,
+     "note": "A practical technical apprenticeship, but further from electrical work."
+    },
+    {
+     "key": "travel",
+     "label": "Travel",
+     "weight": 25,
+     "value": 0.3,
+     "points": 7.5,
+     "note": "About 35.8 miles away. Too far to travel daily without driving; it would probably mean moving, which you said you'd consider for the right apprenticeship."
+    },
+    {
+     "key": "evidence",
+     "label": "Your experience",
+     "weight": 15,
+     "value": 0.7,
+     "points": 10.5,
+     "note": "Your Level 3 college qualification and GCSEs meet typical entry requirements."
+    },
+    {
+     "key": "hours",
+     "label": "Hours",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0,
+     "note": "40 hours a week: full-time, which is what you want."
+    },
+    {
+     "key": "shifts",
+     "label": "Shifts",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0,
+     "note": "Weekday daytime hours."
+    },
+    {
+     "key": "pay",
+     "label": "Pay",
+     "weight": 5,
+     "value": 0.7,
+     "points": 3.5,
+     "note": "Pay is about £8.00 an hour, typical for an apprenticeship."
+    },
+    {
+     "key": "workplace",
+     "label": "Workplace",
+     "weight": 5,
+     "value": 0.85,
+     "points": 4.2,
+     "note": "The advert mentions training or support when you start."
+    }
+   ],
+   "why": [
+    "40 hours a week: full-time, which is what you want.",
+    "Weekday daytime hours.",
+    "The advert mentions training or support when you start."
+   ],
+   "gaps": [
+    "Wants someone already qualified as an electrician (time-served). Your Level 3 is a college course, which isn't the same thing yet.",
+    "About 35.8 miles away. Too far to travel daily without driving; it would probably mean moving, which you said you'd consider for the right apprenticeship."
    ]
   },
   {

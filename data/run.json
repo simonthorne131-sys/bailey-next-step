@@ -33,13 +33,13 @@
  ],
  "summary": {
   "job": {
-   "active": 61,
+   "active": 60,
    "new": 0,
-   "strong": 18,
+   "strong": 17,
    "closing_soon": 0
   },
   "apprenticeship": {
-   "active": 35,
+   "active": 34,
    "new": 0,
    "strong": 0,
    "closing_soon": 9
@@ -56,5 +56,5 @@
   "Rapier Employment: 1 listed",
   "Insight Employment: 22 listed"
  ],
- "rescored_at": "2026-10-04T12:05+01:00"
+ "rescored_at": "2026-10-04T12:15+01:00"
 }
