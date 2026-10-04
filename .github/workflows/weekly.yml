@@ -1,0 +1,58 @@
+name: Weekly search
+
+on:
+  schedule:
+    # Saturday 09:00 UK time. Two entries cover GMT and BST; the gate below runs it once.
+    - cron: "0 8 * * 6"
+    - cron: "0 9 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run only once, at or after 09:00 UK
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            hour=$(TZ=Europe/London date +%H); today=$(TZ=Europe/London date +%F)
+            last=$(python3 -c "import json;print(json.load(open('data/run.json')).get('today',''))" 2>/dev/null || true)
+            if [ "$hour" -lt 9 ] || [ "$last" = "$today" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        if: steps.gate.outputs.skip != 'true'
+        run: pip install -r requirements.txt
+
+      - name: Offline tests
+        if: steps.gate.outputs.skip != 'true'
+        run: python -m pytest -q
+
+      - name: Search, check and score
+        if: steps.gate.outputs.skip != 'true'
+        run: python -m scout.run
+
+      - name: Publish the new data
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          git config user.name "next-step-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Weekly update $(TZ=Europe/London date +%F)"
+          git push

@@ -1,0 +1,51 @@
+{
+ "run_at": "2026-10-04T11:50+01:00",
+ "today": "2026-10-04",
+ "sources": [
+  {
+   "key": "faa",
+   "name": "faa",
+   "ok": true,
+   "listed": 49,
+   "note": ""
+  },
+  {
+   "key": "insight",
+   "name": "insight",
+   "ok": true,
+   "listed": 14,
+   "note": ""
+  },
+  {
+   "key": "rapier",
+   "name": "rapier",
+   "ok": true,
+   "listed": 1,
+   "note": ""
+  },
+  {
+   "key": "reed",
+   "name": "reed",
+   "ok": true,
+   "listed": 111,
+   "note": ""
+  }
+ ],
+ "summary": {
+  "job": {
+   "active": 61,
+   "new": 0,
+   "strong": 12,
+   "closing_soon": 0
+  },
+  "apprenticeship": {
+   "active": 35,
+   "new": 0,
+   "strong": 0,
+   "closing_soon": 9
+  },
+  "sources_ok": 4,
+  "sources_failed": []
+ },
+ "log": []
+}

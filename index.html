@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Bailey's Next Step</title>
+<meta name="description" content="Jobs and apprenticeships picked out for Bailey, updated every Saturday.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23134e4a'/%3E%3Cpath d='M18 4 9 18h6l-2 10 10-15h-6z' fill='%23fbbf24'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css?v=2">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--brand)"/><path d="M18 4 9 18h6l-2 10 10-15h-6z" fill="var(--accent)"/></svg>
+      <div>
+        <h1>Bailey's Next Step</h1>
+        <p class="sub">Jobs and apprenticeships picked out for you, updated every Saturday</p>
+      </div>
+    </div>
+    <p id="status-line" class="status-line" aria-live="polite">Loading…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="tabs" role="tablist" aria-label="Lists">
+    <button role="tab" data-tab="job" aria-selected="true">Jobs <span class="count" id="count-job"></span></button>
+    <button role="tab" data-tab="apprenticeship" aria-selected="false">Apprenticeships <span class="count" id="count-apprenticeship"></span></button>
+    <button role="tab" data-tab="mine" aria-selected="false">My list <span class="count" id="count-mine"></span></button>
+  </nav>
+
+  <section id="intro" class="intro"></section>
+
+  <div class="controls" id="controls">
+    <div class="chips" role="radiogroup" aria-label="Show">
+      <button class="chip" data-show="best" aria-pressed="true">Best matches</button>
+      <button class="chip" data-show="new" aria-pressed="false">New this week</button>
+      <button class="chip" data-show="closing" aria-pressed="false">Closing soon</button>
+      <button class="chip" data-show="all" aria-pressed="false">Everything</button>
+    </div>
+    <input type="search" id="q" placeholder="Search titles, employers, towns" aria-label="Search">
+  </div>
+
+  <div id="list" class="list"></div>
+
+  <section class="panel" id="add-panel" hidden>
+    <h2>Add a job you found elsewhere</h2>
+    <p class="muted">It goes on your list so you can track it. Send the link to Dad if you want it scored or a CV written for it.</p>
+    <form id="add-form">
+      <label>Job title <input name="title" required maxlength="120"></label>
+      <label>Employer <input name="employer" maxlength="120"></label>
+      <label>Link to the advert <input name="url" type="url" placeholder="https://"></label>
+      <label>Lane
+        <select name="lane"><option value="job">Job</option><option value="apprenticeship">Apprenticeship</option></select>
+      </label>
+      <label>Already applied? <select name="stage"><option value="saved">No, just saving it</option><option value="applied">Yes, I've applied</option></select></label>
+      <div class="row"><button type="submit" class="btn primary">Add to my list</button><button type="button" class="btn" id="add-cancel">Cancel</button></div>
+    </form>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-actions">
+      <a class="btn" id="docs-link" href="#" target="_blank" rel="noopener" hidden>Your CVs and letters</a>
+      <button class="btn" id="add-open">Add a job you found</button>
+      <button class="btn" id="backup">Back up my progress</button>
+      <label class="btn file">Restore a backup<input type="file" id="restore" accept="application/json"></label>
+    </div>
+    <p class="muted small">Your ticks, notes and statuses are saved in this browser on this device only. Use <b>Back up</b> to move them to another phone or laptop.
+    Scores are a guide to help you pick, not the chance of getting the job. Always read the full advert before applying. Nothing is ever applied for or sent for you.</p>
+    <p class="muted small" id="sources-line"></p>
+  </div>
+</footer>
+
+<template id="card-tpl">
+  <article class="card">
+    <div class="card-head">
+      <div class="score"><span class="score-num"></span><span class="score-band"></span></div>
+      <div class="card-title">
+        <h3><a class="title-link" target="_blank" rel="noopener"></a></h3>
+        <p class="meta"></p>
+      </div>
+    </div>
+    <div class="tags"></div>
+    <ul class="why"></ul>
+    <ul class="gaps"></ul>
+    <details class="more">
+      <summary>Why this score?</summary>
+      <div class="more-body"></div>
+    </details>
+    <div class="actions">
+      <a class="btn primary open" target="_blank" rel="noopener">Open advert</a>
+      <label class="stage-wrap">Status
+        <select class="stage">
+          <option value="">Not started</option>
+          <option value="saved">Saved</option>
+          <option value="preparing">Preparing</option>
+          <option value="applied">Applied</option>
+          <option value="interview">Interview</option>
+          <option value="offer">Offer</option>
+          <option value="not_for_me">Not for me</option>
+          <option value="unsuccessful">Unsuccessful</option>
+        </select>
+      </label>
+      <button class="btn applied-btn">Already applied</button>
+    </div>
+    <div class="track" hidden>
+      <div class="ready">
+        <span class="muted small">Ready to apply?</span>
+        <label><input type="checkbox" data-ready="cv"> CV ready</label>
+        <label><input type="checkbox" data-ready="letter"> Covering letter ready</label>
+        <label><input type="checkbox" data-ready="questions"> Questions answered</label>
+      </div>
+      <label class="applied-on" hidden>Date applied (optional) <input type="date" class="applied-date"></label>
+      <label class="note-wrap">Notes <textarea class="note" rows="2" placeholder="Anything to remember: who you spoke to, interview date…"></textarea></label>
+    </div>
+  </article>
+</template>
+
+<script src="assets/app.js?v=2"></script>
+</body>
+</html>
