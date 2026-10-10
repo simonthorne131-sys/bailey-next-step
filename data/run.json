@@ -1,12 +1,12 @@
 {
- "run_at": "2026-10-04T11:58+01:00",
- "today": "2026-10-04",
+ "run_at": "2026-10-10T09:08+01:00",
+ "today": "2026-10-10",
  "sources": [
   {
    "key": "faa",
    "name": "GOV.UK Find an apprenticeship",
    "ok": true,
-   "listed": 68,
+   "listed": 70,
    "note": ""
   },
   {
@@ -20,7 +20,7 @@
    "key": "rapier",
    "name": "Rapier Employment",
    "ok": true,
-   "listed": 1,
+   "listed": 2,
    "note": ""
   },
   {
@@ -33,16 +33,16 @@
  ],
  "summary": {
   "job": {
-   "active": 60,
-   "new": 0,
-   "strong": 17,
+   "active": 67,
+   "new": 15,
+   "strong": 21,
    "closing_soon": 0
   },
   "apprenticeship": {
-   "active": 34,
-   "new": 0,
-   "strong": 0,
-   "closing_soon": 9
+   "active": 40,
+   "new": 17,
+   "strong": 1,
+   "closing_soon": 6
   },
   "sources_ok": 4,
   "sources_failed": []
@@ -53,8 +53,8 @@
   "Marine and seagoing: 1 page(s) read",
   "Wind and renewables: 1 page(s) read",
   "20 searches read",
-  "Rapier Employment: 1 listed",
-  "Insight Employment: 22 listed"
- ],
- "rescored_at": "2026-10-04T12:15+01:00"
+  "Rapier Employment: 2 listed",
+  "Insight Employment: 22 listed",
+  "Couldn't read https://insightemployment.co.uk/dir/job/quality-assurance-technician/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14560"
+ ]
 }
