@@ -1,6 +1,6 @@
 {
- "run_at": "2026-10-10T09:08+01:00",
- "today": "2026-10-10",
+ "run_at": "2026-10-17T09:16+01:00",
+ "today": "2026-10-17",
  "sources": [
   {
    "key": "faa",
@@ -27,34 +27,34 @@
    "key": "insight",
    "name": "Insight Employment",
    "ok": true,
-   "listed": 22,
+   "listed": 25,
    "note": ""
   }
  ],
  "summary": {
   "job": {
-   "active": 67,
-   "new": 15,
+   "active": 73,
+   "new": 14,
    "strong": 21,
    "closing_soon": 0
   },
   "apprenticeship": {
    "active": 40,
-   "new": 17,
-   "strong": 1,
-   "closing_soon": 6
+   "new": 9,
+   "strong": 0,
+   "closing_soon": 3
   },
   "sources_ok": 4,
   "sources_failed": []
  },
  "log": [
-  "Construction and engineering near Milton Keynes: 4 page(s) read",
-  "Electrical anywhere in England: 3 page(s) read",
+  "Construction and engineering near Milton Keynes: 3 page(s) read",
+  "Electrical anywhere in England: 4 page(s) read",
   "Marine and seagoing: 1 page(s) read",
   "Wind and renewables: 1 page(s) read",
   "20 searches read",
   "Rapier Employment: 2 listed",
-  "Insight Employment: 22 listed",
+  "Insight Employment: 25 listed",
   "Couldn't read https://insightemployment.co.uk/dir/job/quality-assurance-technician/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14560"
  ]
 }
