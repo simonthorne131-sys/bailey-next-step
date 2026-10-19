@@ -11,7 +11,7 @@
     mine: "Everything you've saved, applied for or ruled out. This list stays on this device; use <b>Back up</b> to keep a copy."
   };
 
-  var data = { items: [] }, run = null, site = {};
+  var data = { items: [] }, run = null, site = {}, docs = {};
   var ui = { tab: "job", show: "best", q: "" };
   var store = load();
 
@@ -172,7 +172,37 @@
         setRec(v, { ready: ready });
       });
     });
+    buildDocs(c, v, r);
     return c;
+  }
+
+  // ---------- CV and letter drafts (Google Docs in the shared Drive folder) ----------
+  var ASK_TO = ["simonthorne131", "gmail.com"].join("@");
+  function docUrl(id) { return "https://docs.google.com/document/d/" + id + "/edit"; }
+  function pdfUrl(id) { return "https://docs.google.com/document/d/" + id + "/export?format=pdf"; }
+  function buildDocs(c, v, r) {
+    if (v.manual) return;
+    var box = c.querySelector(".docs"), d = docs[v.id];
+    if (d && (d.cv || d.letter)) {
+      var have = box.querySelector(".docs-have");
+      [["cv", ".doc-cv", ".pdf-cv"], ["letter", ".doc-letter", ".pdf-letter"]].forEach(function (k) {
+        if (d[k[0]]) { have.querySelector(k[1]).href = docUrl(d[k[0]]); have.querySelector(k[2]).href = pdfUrl(d[k[0]]); }
+        else { have.querySelector(k[1]).remove(); have.querySelector(k[2]).remove(); }
+      });
+      have.hidden = false; box.hidden = false;
+      return;
+    }
+    if (v.live === "closed" || v.blocked || v.folded_into || v.gone) return;
+    var ask = box.querySelector(".docs-ask"), btn = ask.querySelector(".ask-letter");
+    var subject = "Bailey letter request [" + v.id + "]";
+    var body = ["Please write a CV and covering letter for this job:", "", v.title + (v.employer ? " at " + v.employer : ""),
+      v.url || "", "Job id: " + v.id, "", "(Sent from Bailey's Next Step board)"].join("\n");
+    btn.href = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(ASK_TO) +
+      "&su=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    var asked = ask.querySelector(".docs-asked");
+    if (r.asked_on) { asked.textContent = "Asked " + niceDate(r.asked_on) + ". It will appear here once it's written."; asked.hidden = false; btn.textContent = "Ask again"; }
+    btn.addEventListener("click", function () { setRec(v, { asked_on: today() }); setTimeout(render, 300); });
+    ask.hidden = false; box.hidden = false;
   }
 
   function buildMore(body, v) {
@@ -281,9 +311,9 @@
   try { var t = localStorage.getItem("bns.tab"); if (t && INTRO[t]) ui.tab = t; } catch (e) {}
 
   function getJSON(path) { return fetch(path + "?v=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(path); return r.json(); }); }
-  Promise.all([getJSON("data/vacancies.json"), getJSON("data/run.json"), getJSON("data/site.json").catch(function () { return {}; })])
+  Promise.all([getJSON("data/vacancies.json"), getJSON("data/run.json"), getJSON("data/site.json").catch(function () { return {}; }), getJSON("data/docs.json").catch(function () { return {}; })])
     .then(function (res) {
-      data = res[0]; run = res[1]; site = res[2] || {};
+      data = res[0]; run = res[1]; site = res[2] || {}; docs = (res[3] && res[3].docs) || {};
       if (site.docs_folder) { var dl = document.getElementById("docs-link"); dl.href = site.docs_folder; dl.hidden = false; }
       statusLine(); render();
     })

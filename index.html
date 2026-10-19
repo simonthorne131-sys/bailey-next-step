@@ -7,7 +7,7 @@
 <title>Bailey's Next Step</title>
 <meta name="description" content="Jobs and apprenticeships picked out for Bailey, updated every Saturday.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23134e4a'/%3E%3Cpath d='M18 4 9 18h6l-2 10 10-15h-6z' fill='%23fbbf24'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css?v=2">
+<link rel="stylesheet" href="assets/style.css?v=3">
 </head>
 <body>
 <header class="top">
@@ -106,6 +106,21 @@
       </label>
       <button class="btn applied-btn">Already applied</button>
     </div>
+    <div class="docs" hidden>
+      <div class="docs-have" hidden>
+        <span class="docs-label">Your drafts for this job:</span>
+        <a class="btn doc-cv" target="_blank" rel="noopener">Open CV</a>
+        <a class="btn doc-letter" target="_blank" rel="noopener">Open covering letter</a>
+        <a class="small pdf-cv">CV as PDF</a>
+        <a class="small pdf-letter">Letter as PDF</a>
+        <p class="docs-help">Check every line before you send it. <b>To make a PDF:</b> open the CV or letter, then click <b>File &gt; Download &gt; PDF Document (.pdf)</b>. Or use the "as PDF" links above. You need to be signed in to Google as Mum (or yourself).</p>
+      </div>
+      <div class="docs-ask" hidden>
+        <a class="btn ask-letter" target="_blank" rel="noopener">Ask for a CV and letter</a>
+        <span class="docs-asked small" hidden></span>
+        <p class="docs-help">This opens an email to Simon with the job filled in. Just press Send. Or tell Simon yourself. Asked on a weekday? It's usually ready by about 7pm. At weekends, by Saturday lunchtime or Monday evening.</p>
+      </div>
+    </div>
     <div class="track" hidden>
       <div class="ready">
         <span class="muted small">Ready to apply?</span>
@@ -119,6 +134,6 @@
   </article>
 </template>
 
-<script src="assets/app.js?v=2"></script>
+<script src="assets/app.js?v=3"></script>
 </body>
 </html>

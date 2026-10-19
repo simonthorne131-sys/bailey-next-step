@@ -129,3 +129,10 @@ a { color: inherit; }
   .score-num { font-size: 1.25rem; }
   #q { max-width: none; }
 }
+
+/* CV and letter drafts */
+.docs { margin-top: 12px; padding: 10px 12px; border: 1px dashed var(--line); border-radius: 10px; }
+.docs-have, .docs-ask { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.docs-label { font-weight: 600; font-size: .9rem; }
+.docs a.small { color: var(--brand); font-size: .85rem; }
+.docs-help { flex-basis: 100%; margin: 4px 0 0; font-size: .82rem; color: var(--muted); line-height: 1.45; }
