@@ -1,6 +1,6 @@
 {
  "note": "Google Doc ids for Bailey's drafted CVs and letters, by job id. Ids only; the docs are private to the shared Drive folder. Written by the CV routines.",
- "updated": "2026-10-24",
+ "updated": "2026-10-31",
  "docs": {
   "reed:57441656": {
    "cv": "17-uLSYnYrlT5m5SoM6WQYFyOCQ_aFm8sOp5bWr9_FJY",
@@ -89,6 +89,30 @@
   "faa:VAC2000060651": {
    "cv": "1tmsnaQAH_4wV8PIGpmQFhc5n_u6aHATDe53vvIIebHw",
    "letter": "1LAOotUaW6pHKgyVkjgcJHrN5teuPyfXN_dRMzyWjQiA"
+  },
+  "reed:57494077": {
+   "cv": "13d8dA1H-1tTgtIgPhNza7CyN6RIqD7AyLeBTQG61N30",
+   "letter": "1zHVnzzTxqUiJCGrppt9waX2ro27EcAYaUvOtCEVcaPY"
+  },
+  "reed:57460305": {
+   "cv": "17pt7rqJQQbZVr-IFrviHobGP8H8qAYTvC_twVPVTogI",
+   "letter": "11DiLXXI0yxI5weUVSBjR-VgRs-sPJzlUlwMQ0BTkX1s"
+  },
+  "reed:57500272": {
+   "cv": "1cxYQ6qoNT4ZPtLfIC7Fi353At04n8xXSsiL6oja1CLI",
+   "letter": "1KmmkHnNheT_8TlMv_irK8cF_DRwZV1ViTFch2rzLFTU"
+  },
+  "faa:VAC2000057418": {
+   "cv": "1SfbbNpEP1iNrDUvvyotnth1aYlrEsy9ye-lVL13-luw",
+   "letter": "1urFEKeA3V6EPChnh5Qy9MjzW__RDBSfO2O2Il1Pf9lc"
+  },
+  "faa:VAC2000060835": {
+   "cv": "1Qhz5T4f_lMoAeyWTn-zt-MBhhuSp0I1HiEHuItJuMys",
+   "letter": "1RmY0B9tGegfUoZ94Y0L1GFppPZWs2mJXTp4o3JujDIk"
+  },
+  "faa:VAC2000058704": {
+   "cv": "1RYpSovGlSTzVNT0djjZbOi2qLwJ1q9Xm2KL13fqKxkk",
+   "letter": "1hFrw27opPqOiAM5-BEfmI112xu4LH2ajzfd1LNqoLf4"
   }
  }
 }
