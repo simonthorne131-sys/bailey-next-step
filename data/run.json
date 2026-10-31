@@ -1,19 +1,19 @@
 {
- "run_at": "2026-10-24T09:19+01:00",
- "today": "2026-10-24",
+ "run_at": "2026-10-31T09:28+00:00",
+ "today": "2026-10-31",
  "sources": [
   {
    "key": "faa",
    "name": "GOV.UK Find an apprenticeship",
    "ok": true,
-   "listed": 71,
+   "listed": 70,
    "note": ""
   },
   {
    "key": "reed",
    "name": "Reed",
    "ok": true,
-   "listed": 227,
+   "listed": 254,
    "note": ""
   },
   {
@@ -27,22 +27,22 @@
    "key": "insight",
    "name": "Insight Employment",
    "ok": true,
-   "listed": 23,
+   "listed": 25,
    "note": ""
   }
  ],
  "summary": {
   "job": {
-   "active": 73,
-   "new": 10,
-   "strong": 23,
+   "active": 76,
+   "new": 18,
+   "strong": 27,
    "closing_soon": 0
   },
   "apprenticeship": {
    "active": 41,
    "new": 7,
    "strong": 2,
-   "closing_soon": 17
+   "closing_soon": 7
   },
   "sources_ok": 4,
   "sources_failed": []
@@ -54,9 +54,10 @@
   "Wind and renewables: 1 page(s) read",
   "20 searches read",
   "Rapier Employment: 1 listed",
-  "Insight Employment: 23 listed",
-  "Couldn't read https://rapieremployment.co.uk/job/warehouse-operatives-12071/: HTTP 502 from https://rapieremployment.co.uk/wp-json/wp/v2/job-listings/12071",
+  "Insight Employment: 25 listed",
+  "Couldn't read https://insightemployment.co.uk/dir/job/admin-assistant/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14577",
   "Couldn't read https://insightemployment.co.uk/dir/job/quality-assurance-technician/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14560",
+  "Couldn't read https://insightemployment.co.uk/dir/job/import-export-administrator/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14556",
   "Couldn't read https://insightemployment.co.uk/dir/job/returns-warehouse-operative-with-reach-truck-experience/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14570"
  ]
 }
