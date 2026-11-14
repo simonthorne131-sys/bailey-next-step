@@ -1,19 +1,19 @@
 {
- "run_at": "2026-11-07T14:38+00:00",
- "today": "2026-11-07",
+ "run_at": "2026-11-14T14:43+00:00",
+ "today": "2026-11-14",
  "sources": [
   {
    "key": "faa",
    "name": "GOV.UK Find an apprenticeship",
    "ok": true,
-   "listed": 69,
+   "listed": 75,
    "note": ""
   },
   {
    "key": "reed",
    "name": "Reed",
    "ok": true,
-   "listed": 224,
+   "listed": 245,
    "note": ""
   },
   {
@@ -27,36 +27,37 @@
    "key": "insight",
    "name": "Insight Employment",
    "ok": true,
-   "listed": 25,
+   "listed": 24,
    "note": ""
   }
  ],
  "summary": {
   "job": {
-   "active": 72,
-   "new": 11,
-   "strong": 25,
+   "active": 69,
+   "new": 10,
+   "strong": 22,
    "closing_soon": 0
   },
   "apprenticeship": {
-   "active": 42,
-   "new": 10,
+   "active": 40,
+   "new": 7,
    "strong": 0,
-   "closing_soon": 4
+   "closing_soon": 7
   },
   "sources_ok": 4,
   "sources_failed": []
  },
  "log": [
-  "Construction and engineering near Milton Keynes: 3 page(s) read",
+  "Construction and engineering near Milton Keynes: 4 page(s) read",
   "Electrical anywhere in England: 4 page(s) read",
   "Marine and seagoing: 1 page(s) read",
   "Wind and renewables: 1 page(s) read",
   "20 searches read",
   "Rapier Employment: 0 listed",
-  "Insight Employment: 25 listed",
+  "Insight Employment: 24 listed",
   "Couldn't read https://insightemployment.co.uk/dir/job/admin-assistant/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14577",
   "Couldn't read https://insightemployment.co.uk/dir/job/import-export-administrator/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14556",
-  "Couldn't read https://insightemployment.co.uk/dir/job/returns-warehouse-operative-with-reach-truck-experience/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14570"
+  "Couldn't read https://insightemployment.co.uk/dir/job/returns-warehouse-operative-with-reach-truck-experience/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14570",
+  "Couldn't read https://insightemployment.co.uk/dir/job/7-5t-delivery-driver/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14582"
  ]
 }
