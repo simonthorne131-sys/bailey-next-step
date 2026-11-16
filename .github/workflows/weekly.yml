@@ -2,9 +2,12 @@ name: Weekly search
 
 on:
   schedule:
-    # Saturday 09:00 UK time. Two entries cover GMT and BST; the gate below runs it once.
-    - cron: "0 8 * * 6"
-    - cron: "0 9 * * 6"
+    # Early Saturday, UK. GitHub started the 09:00 run 6.5 hours late on 7 and 14 Nov 2026, after the
+    # 10:30 CV routine and the 11:30 family check had read last week's data. Three off-the-hour tries
+    # (01:41, 04:41, 07:41 UTC); the gate below runs it once per UK day. Changed 16 Nov 2026.
+    - cron: "41 1 * * 6"
+    - cron: "41 4 * * 6"
+    - cron: "41 7 * * 6"
   workflow_dispatch:
     inputs:
       mode:
@@ -27,13 +30,13 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Run only once, at or after 09:00 UK
+      - name: Run only once per UK day
         id: gate
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            hour=$(TZ=Europe/London date +%H); today=$(TZ=Europe/London date +%F)
+            today=$(TZ=Europe/London date +%F)
             last=$(python3 -c "import json;print(json.load(open('data/run.json')).get('today',''))" 2>/dev/null || true)
-            if [ "$hour" -lt 9 ] || [ "$last" = "$today" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+            if [ "$last" = "$today" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
           fi
 
       - uses: actions/setup-python@v6
