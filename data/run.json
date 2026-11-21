@@ -1,19 +1,19 @@
 {
- "run_at": "2026-11-14T14:43+00:00",
- "today": "2026-11-14",
+ "run_at": "2026-11-21T08:44+00:00",
+ "today": "2026-11-21",
  "sources": [
   {
    "key": "faa",
    "name": "GOV.UK Find an apprenticeship",
    "ok": true,
-   "listed": 75,
+   "listed": 78,
    "note": ""
   },
   {
    "key": "reed",
    "name": "Reed",
    "ok": true,
-   "listed": 245,
+   "listed": 242,
    "note": ""
   },
   {
@@ -33,16 +33,16 @@
  ],
  "summary": {
   "job": {
-   "active": 69,
-   "new": 10,
-   "strong": 22,
+   "active": 64,
+   "new": 14,
+   "strong": 20,
    "closing_soon": 0
   },
   "apprenticeship": {
-   "active": 37,
-   "new": 6,
-   "strong": 0,
-   "closing_soon": 4
+   "active": 45,
+   "new": 12,
+   "strong": 2,
+   "closing_soon": 8
   },
   "sources_ok": 4,
   "sources_failed": []
@@ -57,8 +57,6 @@
   "Insight Employment: 24 listed",
   "Couldn't read https://insightemployment.co.uk/dir/job/admin-assistant/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14577",
   "Couldn't read https://insightemployment.co.uk/dir/job/import-export-administrator/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14556",
-  "Couldn't read https://insightemployment.co.uk/dir/job/returns-warehouse-operative-with-reach-truck-experience/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14570",
   "Couldn't read https://insightemployment.co.uk/dir/job/7-5t-delivery-driver/: HTTP 401 from https://insightemployment.co.uk/dir/wp-json/wp/v2/job-listings/14582"
- ],
- "rescored_at": "2026-11-16T13:47+00:00"
+ ]
 }
